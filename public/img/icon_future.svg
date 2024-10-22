@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 119.51499939 117.73699951">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #adbc66;
+      }
+
+      .cls-2, .cls-5 {
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        stroke-miterlimit: 10.00000006;
+        stroke-width: 3.00000002px;
+      }
+
+      .cls-4 {
+        stroke-miterlimit: 10.00000014;
+        stroke-width: 3.00000004px;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-5 {
+        stroke-linejoin: bevel;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="119.51499939" height="117.73699951"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_12" data-name="Layer 12">
+    <g id="Group_254" data-name="Group 254">
+      <rect id="Rectangle_290" data-name="Rectangle 290" class="cls-4" x="64.94926982" y="12.24275462" width="44.74400009" height="22.91099961" transform="translate(-2.69652679 32.83103702) rotate(-20.97699959)"/>
+      <rect id="Rectangle_291" data-name="Rectangle 291" class="cls-4" x="8.87034753" y="44.09682064" width="20.61800031" height="11.45600048" transform="translate(-16.56581824 10.16825438) rotate(-20.97699959)"/>
+      <g id="Group_253" data-name="Group 253">
+        <g class="cls-6">
+          <g id="Group_252" data-name="Group 252">
+            <rect id="Rectangle_292" data-name="Rectangle 292" class="cls-3" x="4.32098583" y="46.4438473" width="5.39099983" height="16.08699999" transform="translate(-19.04191855 6.12350074) rotate(-20.97800009)"/>
+            <path id="Path_235" data-name="Path 235" class="cls-5" d="m59.48699951,51.39399719c-3.03444672,2.44282532-7.36965179,2.41020203-10.36699677-.07800293l-30.88700104,65.16702271h6.46900177l29.58300018-62.41300964,29.58200073,62.41600037h6.46899414l-30.84899902-65.0920105Z"/>
+            <rect id="Rectangle_293" data-name="Rectangle 293" class="cls-3" x="108.05218773" y="1.72762728" width="5.39099983" height="25.87000099" transform="translate(2.09122322 40.62058822) rotate(-20.97800009)"/>
+            <path id="Path_236" data-name="Path 236" class="cls-2" d="m46.08399963,44.83899689c-.06307983-4.56033325,3.58265686-8.30834961,8.14298248-8.37143707,3.73249817-.05162811,7.03553772,2.40705872,8.05702209,5.99743652l7.21299744-2.76599884-6.1269989-15.98200226-37.62599945,14.4260025,6.1269989,15.98200226,14.99099731-5.7480011c-.51326752-1.10881805-.77875519-2.31615448-.77799988-3.53800201Z"/>
+            <ellipse id="Ellipse_91" data-name="Ellipse 91" class="cls-2" cx="54.35200024" cy="44.83799934" rx="8.26900005" ry="8.36499977"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

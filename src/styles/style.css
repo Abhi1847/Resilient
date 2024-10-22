@@ -1,0 +1,293 @@
+.home-page-map .leaflet-container {
+    height: 70vh;
+}
+
+.map-page .leaflet-container {
+    height: 90vh;
+}
+
+.timeline-page .leaflet-container {
+    height: 35vh;
+}
+
+.find-property-map .leaflet-container {
+    height: 50vh;
+}
+
+.sw-theme-arrows > .nav .nav-link.default {
+    background: #a09f9e !important;
+    color: white !important;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sw-theme-arrows > .nav .nav-link.default::after {
+    border-left-color: #a09f9e !important;
+}
+
+.sw-theme-arrows > .nav .nav-link.active {
+    background: #a5bf45 !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.sw-theme-arrows > .nav .nav-link.active::after {
+    border-left-color: #a5bf45 !important;
+}
+
+.sw-theme-arrows > .nav .nav-link.done {
+    background: #26221d !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.sw-theme-arrows > .nav .nav-link.done::after {
+    border-left-color: #26221d !important;
+}
+
+.sw-btn-next {
+    font-family: 'Lato', sans-serif;
+    border-radius: 0 !important;
+    color: #707070 !important;
+    background: transparent !important;
+    border: 3px solid #707070 !important;
+}
+
+.sw-btn-prev {
+    font-family: 'Lato', sans-serif !important;
+    border-radius: 0 !important;
+    background: #a5bf45 !important;
+    border: 3px solid #a5bf45 !important;
+}
+
+#smartwizard .tab-content {
+    /*min-height: 700px !important;*/
+    background: rgb(233, 236, 239);
+}
+
+.page_not_found {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.page_not_found .fof {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.page_not_found .fof h1 {
+    font-size: 50px;
+    display: inline-block;
+    padding-right: 12px;
+    animation: type .5s alternate infinite;
+}
+
+@keyframes type {
+    from {
+        box-shadow: inset -3px 0 0 #888;
+    }
+    to {
+        box-shadow: inset -3px 0 0 transparent;
+    }
+}
+
+.leaflet-geosearch-bar {
+    position: absolute;
+    margin: 10px;
+    z-index: 500;
+    width: 40%;
+}
+
+.leaflet-geosearch-bar form {
+    width: 100%;
+}
+
+.leaflet-geosearch-bar form .results {
+    background: white;
+}
+
+.leaflet-geosearch-bar form .results div {
+    padding: 5px;
+    font-size: 10pt;
+}
+
+.leaflet-geosearch-bar form .results div:hover, .leaflet-geosearch-bar form .results .active {
+    background: #dee2e6;
+}
+
+.leaflet-geosearch-bar .glass {
+    width: 85%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.leaflet-geosearch-bar .glass:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+.leaflet-geosearch-bar .reset {
+    display: none;
+    border: 1px solid #ced4da;
+    background: #a5bf45;
+    border-radius: 5px;
+    color: white;
+    width: 50px;
+    height: 40px;
+    font-size: 1rem;
+}
+
+.leaflet-control-zoom, .geosearch {
+    display: none;
+}
+
+.active_card {
+    background-color: #a5bf4542 !important;
+}
+
+ul.leaflet-draw-actions.leaflet-draw-actions-bottom li a[title="Clear all layers"] {
+    display: none;
+}
+
+.Toastify__toast-container {
+    z-index: 99999 !important;
+}
+
+.sw-theme-arrows {
+    border: 0 !important;
+}
+
+.sw-theme-arrows > .nav .nav-link.default::before {
+    border-left-color: white !important;
+    border-left-width: 45px !important;
+}
+
+.leaflet-control-attribution {
+    display: none;
+}
+
+.sw-theme-arrows > .nav .nav-link.active + .active_header {
+    z-index: 999;
+    background: #a5bf45;
+    position: absolute;
+    margin-top: 3px;
+    width: 13%;
+    height: 5px;
+}
+
+.sw-theme-arrows > .nav .nav-link.active + .first_header {
+    width: 12%;
+}
+
+.sw-theme-arrows > .nav .nav-link.active + .second_header, .third_header, .fourth_header, .fifth_header, .sixth_header {
+    margin-left: -17px;
+}
+.sw-theme-arrows > .nav .nav-link.active + .sixth_header {
+    width: 14%;
+}
+
+.sw-theme-arrows > .nav .nav-link.active + .active_header + .arrow-up {
+    width: 0;
+    height: 50px;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 25px solid #e9ecef;
+    position: absolute;
+    z-index: 999;
+    margin-left: 5%;
+}
+
+.tab-header {
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+    margin-bottom: 3rem !important;
+}
+.sw-theme-arrows>.nav .nav-item:last-child .nav-link::after {
+    border-left-color: white !important;
+}
+
+.MuiSelect-select{
+    text-transform: capitalize;
+    min-height: 0 !important;
+}
+
+.leaflet-tooltip {
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.leaflet-tooltip-top:before {
+    margin-bottom: -15px !important;
+}
+
+#demo-select-small span {
+    white-space: normal !important;
+    font-size: 10px !important;
+}
+
+.uppy-Dashboard--modal .uppy-Dashboard-inner {
+    /*top: 130px !important;*/
+}
+
+.webcam .uppy-DashboardTab[data-uppy-acquirer-id="MyDevice"] {
+    display: none;
+}
+
+.webcam .uppy-Dashboard-AddFiles-title {
+    display: none;
+}
+
+.ril__toolbar {
+    top: 95px !important;
+}
+
+.bg-green {
+    background-color: #A5BF45 !important;
+}
+.MuiMobileStepper-dotActive {
+    background-color: #A5BF45 !important;
+}
+
+.stepper-back, .stepper-next {
+    color: #A5BF45 !important;
+}
+
+.Mui-disabled{
+    color: rgba(0, 0, 0, 0.26) !important;
+}
+.css-7obqij-MuiInputBase-root-MuiInput-root:before {
+    border-bottom: 0px solid !important;
+}
+
+.css-7obqij-MuiInputBase-root-MuiInput-root::after {
+    border-bottom: 0px solid !important;
+}
+
+.css-7obqij-MuiInputBase-root-MuiInput-root::focus {
+    border-bottom: 0px solid !important;
+}
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+    background: rgb(200, 223, 117) !important;
+    color: black !important;
+    font-weight: 900 !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }

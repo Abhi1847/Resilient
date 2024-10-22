@@ -1,0 +1,99 @@
+[
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-121.28991007804872, 39.439602740217886],
+          [-121.28530740737916, 39.43944529091929],
+          [-121.28550052642824, 39.435774135333716],
+          [-121.29085421562196, 39.435848720555434],
+          [-121.29065036773683, 39.43858345687397]
+        ]
+      ]
+    },
+    "properties": {
+      "address": "123 Main street",
+      "zip_code": "123455",
+      "country": "India",
+      "status": "interested",
+      "name": "Kavan Patel",
+      "email": "kavan.patel@scalecapacity.com",
+      "latitude": 39.43782770429143,
+      "longitude": -121.28806331481935,
+      "estimate_of_biomass_detected": 300,
+      "percentage_of_trees": "76 %",
+      "diameter_at_breast_height": "5.8 inches",
+      "types_of_trees": "Cedar, Cypress, Pine and Spruce",
+      "cost": 300,
+      "property_id": 1,
+      "color": "lime"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-121.28966331481935, 39.43922770429143],
+          [-121.28567218780519, 39.43907854100376],
+          [-121.28598868846895, 39.43631067537972],
+          [-121.29022657871248, 39.436434983080815],
+          [-121.29009246826173, 39.438535749677705]
+        ]
+      ]
+    },
+    "properties": {
+      "address": "123 Main street",
+      "zip_code": "123455",
+      "country": "India",
+      "status": "interested",
+      "name": "Kavan Patel",
+      "email": "kavan.patel@scalecapacity.com",
+      "latitude": 39.43922770429143,
+      "longitude": -121.28966331481935,
+      "estimate_of_biomass_detected": 300,
+      "percentage_of_trees": "76 %",
+      "diameter_at_breast_height": "5.8 inches",
+      "types_of_trees": "Cedar, Cypress, Pine and Spruce",
+      "cost": 300,
+      "property_id": 1,
+      "color": "yellow"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-121.289373636, 39.437945515],
+          [-121.289137602, 39.43864568],
+          [-121.28693819, 39.438707824],
+          [-121.286959648, 39.436735745],
+          [-121.289577484, 39.436872467],
+          [-121.289373636, 39.437945515]
+        ]
+      ]
+    },
+    "properties": {
+      "address": "123 Main street",
+      "zip_code": "123455",
+      "country": "India",
+      "status": "interested",
+      "name": "Kavan Patel",
+      "email": "kavan.patel@scalecapacity.com",
+      "latitude": 39.437945515,
+      "longitude": -121.289373636,
+      "estimate_of_biomass_detected": 300,
+      "percentage_of_trees": "76 %",
+      "diameter_at_breast_height": "5.8 inches",
+      "types_of_trees": "Cedar, Cypress, Pine and Spruce",
+      "cost": 300,
+      "property_id": 1,
+      "color": "red"
+    }
+  }
+]
